@@ -1,0 +1,28 @@
+# Datasetler - kaynak lisanslari kontrol edilmeden GitHub'a gonderilmez
+/COVID-19_Radiography_Dataset/
+/hazir_veriseti/
+/cnn_sonuclar/
+/data/
+/outputs/
+*.dcm
+*.tif
+*.tiff
+
+# Model agirliklari ve ara ciktılar
+*.pth
+*.pt
+*.ckpt
+
+# Python / Windows / ortama ozel dosyalar
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
